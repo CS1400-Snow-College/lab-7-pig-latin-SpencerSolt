@@ -1,0 +1,1 @@
+﻿//Spencer Solt, 10/14/25, Lab 7 - Pig Latin/ Encoder
