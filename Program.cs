@@ -21,3 +21,5 @@ for (int i = 0; i < arrayPhrase.Count(); i++)
 //Combines the translated pig latin into a single sentence and prints it
 string pigLatin = string.Join(" ", translatedPhrase);
 Console.WriteLine($"In pig latin that's: {pigLatin}");
+//Generates a random number to be used for the offset
+Random rand = new Random(); int randomOffset = rand.Next(1, 26);
