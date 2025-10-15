@@ -1,2 +1,5 @@
 ﻿//Spencer Solt, 10/14/25, Lab 7 - Pig Latin/ Encoder
 Console.WriteLine("Hello, this program will collect a string and translate into pig latin by taking words starting with a consonant, or a consonant cluster, move the cluster to the end and add 'AY'. Otherwise , If the word begins with a vowel and ends with a vowel just add 'way' to the end. Then encrypte it by generating a random number and shifting the characters by that amount.");
+Console.Write("Please enter a phrase: ");
+string? phrase = Console.ReadLine();
+string[] translatedPhrase = phrase.Split(); //Takes the user input and changes it into an array
