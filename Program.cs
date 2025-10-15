@@ -18,3 +18,6 @@ for (int i = 0; i < arrayPhrase.Count(); i++)
                 translatedPhrase[i] = arrayPhrase[i].ToLower().Substring(x, arrayPhrase[i].Length - x) + arrayPhrase[i].ToLower().Substring(0, x) + "ay";
     }
 }
+//Combines the translated pig latin into a single sentence and prints it
+string pigLatin = string.Join(" ", translatedPhrase);
+Console.WriteLine($"In pig latin that's: {pigLatin}");
